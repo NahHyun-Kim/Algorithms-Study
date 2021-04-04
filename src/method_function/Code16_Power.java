@@ -2,7 +2,7 @@ package method_function;
 
 import java.util.Scanner;
 
-public class Code16_power {
+public class Code16_Power {
 
     public static void main(String[] args) {
         //두 수 a,b를 입력받아 a의 b승을 출력하는 예제
@@ -13,7 +13,8 @@ public class Code16_power {
         int b = keyboard.nextInt();
 
         int result = power(a,b);
-        System.out.println("The result is" + result);
+        System.out.println("The result" +
+                " is" + result);
     }
 
     public static int power(int n, int m){
